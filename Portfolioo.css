@@ -1,0 +1,138 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+  body{background-color:beige;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+  
+  }
+.navs{list-style-type:none;
+    margin:1.5rem;
+    padding:1rem;
+    background-color:#151e3d;
+    overflow: hidden;
+    }
+    .navs li{float:left;
+      color:#0492c2;
+      text-align:center;
+      padding:2rem;
+      text-decoration:none;
+      font-size:1rem;
+      line-height:3rem;}
+      
+    
+   .navs li a{display:inline-flex;    
+    text-decoration: none;
+    color:aqua;
+    font-weight:light;
+    padding: 1rem;}
+    
+    .navs li{float:right;}
+    
+    .navs li a:hover{
+      border-bottom: 2px solid red;}
+    
+   .navs li a:active{background-color:green;}
+   .abouts{display:flex;
+  justify-content:space-evenly;
+align-items:center;
+width:100%;}
+.abouts-img img{border: none;
+border-radius:50%;
+width:300px;
+height:250px;
+}
+   .about {
+    text-align:left;
+  justify-content: center;
+  line-height:3rem;
+padding-left:7.5rem;
+margin-left: 7.5rem;
+align-items: center;
+margin-top: 2.5rem;}
+
+.about-par{font-size:1rem;
+  font-weight:bold;}
+  .about-head{font-size:50px;
+    margin-bottom:20px;}
+  .build {color:#696880;
+    font-weight:bold;
+    font-size:50px;
+    }
+    .about-par2{font-size:14px;
+      font-weight:bold;
+    color:#000;
+    line-height:20px;
+    margin-top:10px;}
+
+.qud {color:gold;
+  font-size:50px;
+  }
+  .projects{background:beige;}
+.projects  p{width:50%;
+text-align: center;
+margin-left: 1rem;
+margin-top: 1rem;
+margin-bottom:1.5rem;
+color:goldenrod;
+
+}
+
+.projects a{background: #151e3d;
+color:goldenrod;
+text-decoration: none;
+}
+   .pro, .pro-2{display:flex;
+  justify-content:space-around;
+  width:100%;
+align-items:center;
+margin-left:5rem;
+}
+
+.project-header{text-align:center;
+font-size:3rem;
+margin-top:2rem;
+margin-bottom: 3rem;
+color:#151e3d;
+}
+
+.project-pic img{width:240px;
+height:200px;
+border-radius:36px;
+}
+#socials{margin-top: 100px;
+  margin-left:50px;
+  padding:0 190px;
+display:flex;
+justify-content: center;
+align-items:center;}
+.contact{background: #151e3d;}
+.contact-header {text-align:center;
+color:goldenrod;
+margin-top: 2rem;
+
+}
+  
+#socials i{display:inline-flex;
+align-items:center;
+justify-content:center;
+height:30px;
+width:30px;
+background:linear-gradient(130.08deg, #383528 0%, #191919 100%);
+box-shadow:0px 20px 40px #00000070;
+  border: 1px solid #3b3b3b;
+  border-radius:50%;
+  color:white;
+  font-size:20px;
+  margin: 10px 15px;
+  transition: all 0.6s ease-in-out;
+  
+}
+  
+  
+#socials i:hover{transform:translateY(-10px);}
+
+footer{text-align:center;
+color:#0492c2}
